@@ -70,6 +70,11 @@ footer{
   color: black;
 }
 
+.footer-item ul a:hover {
+ 
+  color: var(--colorgrey);
+}
+
 .flex-rows {
   display:flex;
   flex-direction: row;
