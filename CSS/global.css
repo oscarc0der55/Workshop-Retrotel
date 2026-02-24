@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --colorblack: rgb(0, 0, 0);
+    --colorhighlight: rgba(30, 34, 34, 0.599);
+    --colorbacklight: rgba(30, 34, 34, 0.842);
+    --colorgrey: rgb(119, 136, 153);
+    --colorwhite: rgb(255, 255, 255);
+    --font1: "Lora", serif;
+    --font-sans-serif: "Gill Sans Nova", sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: var(--font1);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+nav{
+ background-color: aqua;
+ max-height: 10vh;
+ display: flex;
+ padding: 0 2rem;
+}
+
+nav h1{
+ margin-right: auto;
+}
+
+nav ul{
+    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+  display: flex;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-rows {
+  display:flex;
+  flex-direction: row;
+}
+.flex-cols {
+  display:flex;
+  flex-direction: column;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+.font-lg {
+  font-size: 1.2rem;
+}
+.font-md {
+  font-size: 1rem;
+}
+
