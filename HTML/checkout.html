@@ -5,9 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/global.css">
     <link rel="stylesheet" href="/CSS/checkout.css">
-    <title>Document</title>
+    <title>RetroTel</title>
 </head>
 <body>
+     <header>
+        <nav class="flex-rows">
+        <h1>Ord</h1>
+        <ul>
+            <li class="ulist"><a href="/HTML/index.html">Main</a></li>
+            <li class="ulist"><a href="/HTML/katalog.html">Katalog</a></li>
+            <li class="ulist"><a href="/HTML/checkout.html">Checkout</a></li>
+        </ul>
+         </nav>
+    </header>
+    <main>
+        <section>
+            <div class="flex-rows">
+          <form class="checkout-form flex-cols">
+            <div class="flex-rows">
+                <div class="flex-cols">
+                     <label for="email">Email</label>
+                     <input type="email" id="email" name="email" placeholder="Din email..."> 
+                </div>
+            <div class="flex-cols">
+                <label for="Namn">Namn</label>
+                <input type="text" id="name" name="name" placeholder="Ditt namn..."> 
+           </div>
+            
+            </div>
+             <label for="Telefonnummer">Telefonnummer</label>
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Ditt telefonnummer..."> 
+             <label for="adress">Adress</label>
+            <input type="text" id="adress" name="adress" placeholder="Din adress..."> 
+            <label for="betalmetod">Betalmetod</label>
+            <select id="betalmetod" name="betalmetod">
+                <option value="Swish">Swish</option>
+                <option value="Kort">Kort</option>
+                <option value="Bank">Bank</option>
+                <option value="Förstfödda">Förstfödda Barn</option>
+            </select>
+          </form>
+          <div class="divider flex-rows">
+            <div class="flex-cols divider-wrapper">
+
+                <h2 class="checkout-label font-lg">Kassa</h2>
+                <ul class="checkout-list ulist">
+                    <li class="checkout-item ">Produkt:</li>
+                    <li class="checkout-item">Antal:</li>
+                    <li class="checkout-item">Pris:</li>
+                   <br/>
+    
+                </ul>
+            </div>
+          </div>
+          </div>
+    </section>
+    </main>
+    <footer>
+        <div>
+            <h3>RetroTel</h3>
+            <p>Klassiska telefoner med tidlös design.</div> <p>
+        </div>
+
+        <div>
+            <h4>Snabba länkar</h4>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </div>
+
+        <div class="flex-rows">
+            <h4>Kontakt: </h4>
+            <p>Email: info@retrotel.se</p>
+            <p>Telefon: 08-000 000</p>
+        </div>
+            <p class="font-md">2026 &#169; JoMo</p>
+    </footer>
     
 </body>
 </html>
