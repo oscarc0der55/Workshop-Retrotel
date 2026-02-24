@@ -22,7 +22,7 @@ body{
 }
 
 nav{
- background-color: aqua;
+ background-color: coral;
  max-height: 10vh;
  display: flex;
  padding: 0 2rem;
@@ -67,6 +67,7 @@ footer{
 .footer-item ul a {
   list-style: none;
   text-decoration: none;
+  color: black;
 }
 
 .flex-rows {
