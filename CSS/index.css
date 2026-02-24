@@ -36,6 +36,7 @@
     padding: 1rem;
     background-color: yellow;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .hero-button:hover{
