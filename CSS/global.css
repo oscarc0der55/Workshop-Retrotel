@@ -60,6 +60,14 @@ footer{
   flex-direction: column;
 }
 
+.absolute-center{
+  align-items: center;
+  justify-content: center;
+}
+
+.gap{
+  gap: 0 4rem;
+}
 .font-xl {
   font-size: 2rem;
 }

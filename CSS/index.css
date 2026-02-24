@@ -22,13 +22,32 @@
 }
 
 .hero{
-    padding: 0;
+    padding: 0 2rem;
+}
+
+.hero-text{
+    width: 70%;
 }
 
 .hero-img{
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: 40rem;
     background-color: white;
+}
+
+.hero-button{
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 10%;
+}
+
+.hero-button:hover{
+    background-color: lightyellow;
+}
+
+.hero-button a{
+  color: var(--colorblack);  
+  text-decoration: none;
 }
 
 .aref{
