@@ -13,9 +13,6 @@
   background-color: var(--colorhighlight);
   font-family: var(--font-sans-serif);
 }
-.active{
-    background-color: var(--colorgrey);
-}
 
 .ulist a:hover{
    background-color: var(--colorgrey);

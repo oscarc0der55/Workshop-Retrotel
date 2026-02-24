@@ -1,0 +1,35 @@
+.ulist{    
+  width: 8rem;
+  list-style-type: none;
+  margin: 0;
+ 
+}
+.ulist a{
+  display: block;
+  color: var(--colorwhite);
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+  background-color: var(--colorhighlight);
+  font-family: var(--font-sans-serif);
+}
+
+.ulist a:hover{
+   background-color: var(--colorgrey);
+}
+
+.box{
+    padding: 0 2rem;
+    border: 0.1rem solid black;
+    margin: 4rem;
+}
+
+.box-text{
+    width: 50%;
+    text-align: center;
+}
+.box-img{
+    height: 10rem;
+    width: 15rem;
+    background-color: white;
+}
